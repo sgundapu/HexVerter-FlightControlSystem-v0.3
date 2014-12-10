@@ -180,6 +180,7 @@ void log_pwm(){
   Serial.println(PWMValue_LB);
   Serial.print("PWMValue TB = "); 
   Serial.println(PWMValue_TB);
+  getSensorData();
 }
 
 void loop() {
